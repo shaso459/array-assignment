@@ -1,0 +1,50 @@
+import java.util.*;
+
+	public class array{
+
+
+	public static void main(String[]args){
+
+	Scanner sc=new Scanner(System.in);
+
+	System.out.println("please inter the number of your name letter");
+
+	int num=sc.nextInt();
+
+	System.out.println("please inter letters of your name");
+
+	char[] letter=new char [num];
+
+	for(int i=0;i<letter.length;i++){
+
+	char pit=sc.next().charAt(0);
+
+	letter[i]=pit;
+
+}
+
+	String name="";
+
+	for(int i=0;i<letter.length;i++){
+
+	name+=letter[i];
+
+
+}
+
+	System.out.println("your name is :"+name);
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+}
